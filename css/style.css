@@ -114,7 +114,8 @@ h2 {
   .btn:visited {
     margin-top: 4rem;
     padding: 2rem 4.5rem;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 400;
   }
 
   section {
