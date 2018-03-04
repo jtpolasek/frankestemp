@@ -16,21 +16,6 @@
 html {
   font-size: 62.5%;
 }
-@media only screen and (max-width: 75em) {
-  html {
-    font-size: 56.25%;
-  }
-}
-@media only screen and (max-width: 56.25em) {
-  html {
-    font-size: 50%;
-  }
-}
-@media only screen and (min-width: 112.5em) {
-  html {
-    font-size: 75%;
-  }
-}
 
 body {
   font-family: 'artdeco', sans-serif;
@@ -38,27 +23,30 @@ body {
   /*font-size: 16px;*/
   line-height: 1.7;
   color: #0c0b0c;
+  background: #f1eeee;
 }
 
 .btn,
 .btn:link,
 .btn:visited {
+  margin-top: 5px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 4rem;
+  padding: 1rem 4rem;
   display: inline-block;
-  border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
-  font-size: 1.6rem;
-  border: none;
+  font-size: 2.2rem;
+  border: 4px solid black;
   cursor: pointer;
+  color: #0c0b0c;
 }
 
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
+
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
@@ -81,12 +69,63 @@ section {
 
 .logo {
   min-width: 300px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 img {
   width: 600px;
   max-width: 100%;
   max-height: 600px;
-  box-shadow: 0 1.8rem 4rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 4rem;
+  text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 3rem;
+  text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  img {
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 38%;
+  }
+
+  img {
+    max-height: 800px;
+    margin-bottom: 6rem;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    margin-top: 4rem;
+  }
+
+  section {
+    margin-top: 8rem;
+  }
+
+  .btn {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
 }
