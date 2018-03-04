@@ -23,7 +23,7 @@ body {
   /*font-size: 16px;*/
   line-height: 1.7;
   color: #0c0b0c;
-  background: #f1eeee;
+  background: #f5f1f1;
 }
 
 .btn,
@@ -69,14 +69,14 @@ section {
 
 .logo {
   min-width: 300px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 img {
   width: 600px;
   max-width: 100%;
   max-height: 600px;
-  box-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
 }
 
 h1 {
