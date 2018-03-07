@@ -131,4 +131,9 @@ h2 {
 
 .web {
   font-style: italic;
+  font-size: 1.8rem;
+}
+
+.open {
+  color: rgba(121, 10, 10, 0.856);
 }
