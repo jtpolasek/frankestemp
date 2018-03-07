@@ -30,6 +30,7 @@ body {
 .btn:link,
 .btn:visited {
   margin-top: 5px;
+  margin-bottom: 15px;
   text-transform: uppercase;
   text-decoration: none;
   padding: 1rem 4rem;
@@ -73,9 +74,9 @@ section {
 }
 
 img {
-  width: 600px;
+  width: 400px;
   max-width: 100%;
-  max-height: 600px;
+  max-height: 400px;
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
 }
 
@@ -126,4 +127,8 @@ h2 {
   html {
     font-size: 75%;
   }
+}
+
+.web {
+  font-style: italic;
 }
