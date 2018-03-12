@@ -86,7 +86,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
 }
 
@@ -105,7 +105,7 @@ h2 {
   }
   img {
     max-height: 800px;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
   }
   .btn,
   .btn:link,
